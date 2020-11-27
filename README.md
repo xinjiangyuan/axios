@@ -1,5 +1,7 @@
 # 初步封装 axios
 
+详细的代码思路请参看[博文](https://blog.xinjiangyuan.com/p/5eb7.html)
+
 ## 封装思路
 
 - 支持多模块多 baseUrl 配置，每个实例可以单独配置

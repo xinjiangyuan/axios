@@ -1,7 +1,7 @@
 {
   "name": "request-by-axios",
-  "version": "1.0.1",
-  "description": "简单封装axios",
+  "version": "1.0.2",
+  "description": "封装axios添加常用功能",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx babel lib --out-dir dist"
