@@ -70,6 +70,9 @@ function cancelByConfig(_ref2, cancel) {
 }
 
 function clearQueen() {
+  Object.values(REQUEST_QUEEN).forEach(function (item) {
+    return item.cancel();
+  });
   REQUEST_QUEEN = {};
 }
 

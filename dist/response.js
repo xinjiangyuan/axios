@@ -40,6 +40,7 @@ export default function responseInterceptor(axiosInstance) {
             data = response.data;
 
         if (status === 401) {
+          // TODO 配置化
           // 清空所有正在请求队列
           clearQueen(); // TODO 未登录提醒
           // ...

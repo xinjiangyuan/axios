@@ -12,12 +12,6 @@ const options = [{
     serverName: 'order',
     log: true,
     adapter: config => {
-      // let find = mockRouter.find(config.url)
-      // if (!find) {
-        // 改使用默认的adapter
-        // delete config.adapter
-        // return Axios(config)
-      // }
       return new Promise((resolve) => {
         const res = {
           data: {
